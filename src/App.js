@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Attire from './components/Attire';
 import DayOf from './components/DayOf';
 import Congratulations from './components/Congratulations';
+import RSVP from './components/RSVP';
 import './styles/App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/attire" element={<Attire />} />
           <Route path="/day-of" element={<DayOf />} />
           <Route path="/congratulations" element={<Congratulations />} />
+          <Route path="/rsvp" element={<RSVP />} />
         </Routes>
       </div>
     </Router>

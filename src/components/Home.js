@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Home.css';
+import '../styles/RSVP.css';
 
 const Home = () => {
   // Array of photos (stock photos that you will replace)
@@ -45,7 +46,6 @@ const Home = () => {
   
   // Function to cycle through photos
   useEffect(() => {
-    console.log("Background image URL:", `url(${photos[currentPhotoIndex]})`);
     const photoInterval = setInterval(() => {
       setCurrentPhotoIndex((prevIndex) => (prevIndex + 1) % photos.length);
     }, 5000);
@@ -76,6 +76,15 @@ const Home = () => {
           <p className="wedding-date">August 15th, 2025 at 4 o'clock in the afternoon</p>
           <p className="wedding-location">The Grand Pavilion<br/>123 Garden Avenue<br/>Meadowbrook, CA 94321</p>
         </div>
+      </div>
+      
+      {/* Add RSVP Banner */}
+      <div className="rsvp-banner">
+        <div className="rsvp-banner-text">
+          <h3>Please let us know if you can make it!</h3>
+          <p>We kindly request your response by July 15th, 2025</p>
+        </div>
+        <Link to="/rsvp" className="rsvp-banner-button">RSVP Now</Link>
       </div>
       
       <div className="countdown-section">
