@@ -25,6 +25,12 @@ jobs:
       
       - name: Setup Pages
         uses: actions/configure-pages@v3
+
+      - name: Preload artifact action
+        uses: actions/upload-artifact@v3
+        with:
+          name: dummy
+          path: README.md
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
