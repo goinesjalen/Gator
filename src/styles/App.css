@@ -1,0 +1,34 @@
+/* styles/App.css - Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Cormorant+Garamond:wght@300;400;600&family=Great+Vibes&display=swap');
+
+:root {
+  --primary-color: #f8f5f0; /* Soft off-white */
+  --accent-color: #d4c1a9; /* Warm beige */
+  --text-color: #3a3a3a; /* Dark gray for text */
+  --border-color: #e0d5c5; /* Light beige for borders */
+  --highlight-color: #b6a48b; /* Darker beige for highlights */
+  --shadow-color: rgba(0, 0, 0, 0.05);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  color: var(--text-color);
+  background-color: var(--primary-color);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
