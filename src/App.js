@@ -1,6 +1,6 @@
-// App.js - Main component
+// App.js - Main component with GitHub Pages routing
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Attire from './components/Attire';
 import DayOf from './components/DayOf';
