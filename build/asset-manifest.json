@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Gator/static/css/main.63c2e64d.css",
+    "main.js": "/Gator/static/js/main.c90e9e59.js",
+    "index.html": "/Gator/index.html",
+    "main.63c2e64d.css.map": "/Gator/static/css/main.63c2e64d.css.map",
+    "main.c90e9e59.js.map": "/Gator/static/js/main.c90e9e59.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63c2e64d.css",
+    "static/js/main.c90e9e59.js"
+  ]
+}
