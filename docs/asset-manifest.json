@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Gator/static/css/main.63c2e64d.css",
-    "main.js": "/Gator/static/js/main.c90e9e59.js",
+    "main.css": "/Gator/static/css/main.3466e579.css",
+    "main.js": "/Gator/static/js/main.f676fafa.js",
     "index.html": "/Gator/index.html",
-    "main.63c2e64d.css.map": "/Gator/static/css/main.63c2e64d.css.map",
-    "main.c90e9e59.js.map": "/Gator/static/js/main.c90e9e59.js.map"
+    "main.3466e579.css.map": "/Gator/static/css/main.3466e579.css.map",
+    "main.f676fafa.js.map": "/Gator/static/js/main.f676fafa.js.map"
   },
   "entrypoints": [
-    "static/css/main.63c2e64d.css",
-    "static/js/main.c90e9e59.js"
+    "static/css/main.3466e579.css",
+    "static/js/main.f676fafa.js"
   ]
 }
