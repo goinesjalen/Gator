@@ -5,7 +5,6 @@ import '../styles/Home.css';
 import '../styles/RSVP.css';
 
 const Home = () => {
-  // Array of photos (stock photos that you will replace)
   const photos = [
     process.env.PUBLIC_URL + "/img/IMG_8352.JPG",
     process.env.PUBLIC_URL + "/img/IMG_8431.JPG",
