@@ -7,11 +7,11 @@ import '../styles/RSVP.css';
 const Home = () => {
   // Array of photos (stock photos that you will replace)
   const photos = [
-    process.env.PUBLIC_URL + "/img/IMG_6542.JPG",
-    process.env.PUBLIC_URL + "/img/IMG_6545.JPG",
-    process.env.PUBLIC_URL + "/img/IMG_6549.JPG",
-    process.env.PUBLIC_URL + "/img/IMG_6561.JPG",
-    process.env.PUBLIC_URL + "/img/IMG_6564.JPG",
+    process.env.PUBLIC_URL + "/img/IMG_8352.JPG",
+    process.env.PUBLIC_URL + "/img/IMG_8431.JPG",
+    process.env.PUBLIC_URL + "/img/IMG_8450.JPG",
+    process.env.PUBLIC_URL + "/img/IMG_8459.JPG",
+    process.env.PUBLIC_URL + "/img/IMG_8463.JPG",
   ];
   
   const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
@@ -56,7 +56,15 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="photo-gallery">
-        <div className="main-photo" style={{ backgroundImage: `url(${photos[currentPhotoIndex]})` }}></div>
+        <div className="main-photo">
+          <div
+            className="main-photo-bg"
+            style={{
+              backgroundImage: `url(${photos[currentPhotoIndex]})`
+            }}
+          />
+          <img src={photos[currentPhotoIndex]} alt="Gallery" className="main-photo-img" />
+        </div>
         <div className="thumbnail-container">
           {photos.map((photo, index) => (
             <div 
